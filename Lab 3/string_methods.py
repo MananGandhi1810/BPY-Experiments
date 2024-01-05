@@ -16,3 +16,7 @@ print(s.startswith("Manan"))
 print(s.endswith("Gandhi"))
 s = "1810"
 print(s.isnumeric())
+s = "Manan Gandhi"
+print(s.count("Manan"))
+s = "Manan Gandhi\""
+print(s)
