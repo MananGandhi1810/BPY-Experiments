@@ -1,0 +1,16 @@
+from tkinter import *
+
+window = Tk()
+window.title("Hello!")
+heading = Label(window, text="Select a programming language:")
+heading.pack()
+ans = StringVar(window, "Python")
+python_radio = Radiobutton(window, text="Python", variable=ans, value="Python")
+python_radio.pack()
+java_radio = Radiobutton(window, text="Java", variable=ans, value="Java")
+java_radio.pack()
+c_radio = Radiobutton(window, text="C", variable=ans, value="C")
+c_radio.pack()
+submit_button = Button(window, text="Submit", command=lambda: print(ans.get()))
+submit_button.pack()
+window.mainloop()
