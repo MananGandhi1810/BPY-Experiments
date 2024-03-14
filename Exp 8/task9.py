@@ -1,0 +1,16 @@
+from tkinter import *
+
+window = Tk()
+red_label = Label(window, text="Red", bg="red", fg="white")
+red_label.pack()
+green_label = Label(window, text="Green", bg="green", fg="black")
+green_label.pack()
+orange_label = Label(window, text="Blue", bg="blue", fg="white")
+orange_label.pack()
+white_label = Label(window, text="White", bg="white", fg="black")
+white_label.pack()
+yellow_label = Label(window, text="Yellow", bg="yellow", fg="black")
+yellow_label.pack()
+blue_label = Label(window, text="Orange", bg="orange", fg="black")
+blue_label.pack()
+window.mainloop()
